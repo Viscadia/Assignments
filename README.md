@@ -97,7 +97,7 @@ Each sale is linked to a product and a customer. Each product belongs to a categ
   - Your **SQL approach** in a markdown cell or `.md` file
   - Your **choice of chart types** and **any trade-offs** in the dashboard visuals
 
-📂 Please place your SQL code and any dashboard screenshots or markdowns in the `bonus_answer.md` or a subfolder within `deliverables/`.
+Please place your SQL code and any dashboard screenshots or markdowns in the `bonus_answer.md` or a subfolder within `deliverables/`.
 
 
 ## ✅ Deliverables (inside `deliverables/` folder)
