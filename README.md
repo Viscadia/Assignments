@@ -2,7 +2,6 @@
 
 Welcome to the assignment for candidates applying to the **Associate Consultant** position at **Viscadia**. This is a take-home evaluation designed to assess your technical depth, analytical thinking, and approach to solving real-world ETL and cloud infrastructure problems.
 
----
 
 ## 📦 Folder Structure
 
@@ -12,7 +11,6 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 - `deliverables/`: Submit your assignment files here
 - `README.md`: Instructions for the assignment
 
----
 
 ## 🔧 Getting Started
 
@@ -24,13 +22,11 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
    - `inventory.csv`
 3. Begin your work and place all deliverables in the `deliverables/` folder.
 
----
 
 ## ⏰ Submission Timeline
 
 You will be given **X hours/days** (timeframe to be finalized by the recruitment team) to complete and submit the assignment.
 
----
 
 ## 📌 Problem Overview
 
@@ -65,7 +61,6 @@ You are expected to:
   - Airflow/Lambda (orchestration)
 - 📌 Draw your architecture by hand if time allows, or use tools like [draw.io](https://draw.io), Lucidchart, etc.
 
----
 
 ## 🌟 Bonus Question (Optional)
 
@@ -104,7 +99,6 @@ Each sale is linked to a product and a customer. Each product belongs to a categ
 
 📂 Please place your SQL code and any dashboard screenshots or markdowns in the `bonus_answer.md` or a subfolder within `deliverables/`.
 
----
 
 ## ✅ Deliverables (inside `deliverables/` folder)
 
@@ -115,7 +109,6 @@ Each sale is linked to a product and a customer. Each product belongs to a categ
 | `sql_schema.sql`                 | SQL schema for final transformed data                     |
 | `bonus_answer.md` _(optional)_ | Answer to the bonus question, if attempted                |
 
----
 
 ## 🧠 Evaluation Criteria
 
