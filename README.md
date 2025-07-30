@@ -10,13 +10,21 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 
 ## 🔧 Getting Started
 
-1. **Fork** this repository.
+1. Fork this repository.
 2. Download the following input files from AWS S3 as per the instructions in `data.md`:
    - `products.csv`
    - `customers.json`
    - `sales/` folder containing 150 daily `.xlsx` files
    - `inventory.csv`
 3. Begin your work and place all deliverables in the `deliverables/` folder.
+4. Create a new branch in your fork (e.g., `submission-yourname`) and commit all your work there.
+5. Open a Pull Request (PR) from your `submission-yourname` branch to same branch of this repository.
+
+### Important Notes
+
+- Each candidate must open their own PR. Multiple PRs are not allowed (only one per candidate).
+- Do not merge your PR. It will be used only for review and evaluation.
+- Ensure all your deliverables are complete before opening the PR.
 
 ## ⏰ Submission Timeline
 
@@ -67,24 +75,24 @@ Each sale is linked to a product and a customer. Each product belongs to a categ
 
 ### Your Task
 
-1. **Write a SQL Query** that returns the **top 3 selling products per region** over the **past 2 months**.
-2. **Create a refreshable visual summary** for the same.
+1. Write a SQL Query that returns the top 3 selling products per region over the past 2 months.
+2. Create a refreshable visual summary for the same.
 
 ### Constraints and Requirements
 
 - **Design for performance**:
-  - Suggest use of **indexes**, **partitioning**, or **materialized views** where applicable
+  - Suggest use of indexes, partitioning, or materialized views where applicable
 
 Please place your SQL code and any dashboard screenshots or markdowns in the `bonus_answer.md` or a subfolder within `deliverables/`.
 
 ## ✅ Deliverables (inside `deliverables/` folder)
 
-| File/Folder                | Description                                                                 |
-| --------------------------| --------------------------------------------------------------------------- |
-| `sql_schema`          | Pseudocode or representative SQL schema for the final transformed dataset   |
-| `aws_architecture.png/pdf`| AWS architecture diagram (hand-drawn or digital) showing core components     |
-| `etl_pipeline`         | Description of ETL approach, structure, and pseudocode-level logic           |
-| `bonus_answer` _(optional)_ | Answer to the bonus question, if attempted                          |
+| File/Folder                     | Description                                                               |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| `sql_schema`                  | Pseudocode or representative SQL schema for the final transformed dataset |
+| `aws_architecture.png/pdf`    | AWS architecture diagram (hand-drawn or digital) showing core components  |
+| `etl_pipeline`                | Description of ETL approach, structure, and pseudocode-level logic        |
+| `bonus_answer` _(optional)_ | Answer to the bonus question, if attempted                                |
 
 ## 🧠 Evaluation Criteria
 
