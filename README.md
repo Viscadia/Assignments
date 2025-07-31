@@ -1,4 +1,4 @@
-# Associate Consultant – SDE Role Assignment
+
 
 Welcome to the assignment for candidates applying to the **Associate Consultant** position at **Viscadia**. This is a take-home evaluation designed to assess your technical depth, analytical thinking, and approach to solving real-world ETL and cloud infrastructure problems.
 
