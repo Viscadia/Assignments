@@ -10,25 +10,27 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 
 ## 🔧 Getting Started
 
-1. Fork this repository.
-2. Download the following input files from AWS S3 as per the instructions in `data.md`:
+1. Fork this repository and rename it as `submission-yourname`.
+2. Download the input files from [this AWS S3 link](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/data.zip), which contains::
    - `products.csv`
    - `customers.json`
    - `sales/` folder containing 150 daily `.xlsx` files
    - `inventory.csv`
 3. Begin your work and place all deliverables in the `deliverables/` folder.
-4. Create a new branch in your fork (e.g., `submission-yourname`) and commit all your work there.
-5. Open a Pull Request (PR) from your `submission-yourname` branch to same branch of this repository.
+4. Commit all your work directly to your fork.
+5. Open a Pull Request (PR) to the same branch of this repository as your submission.
 
 ### Important Notes
 
 - Each candidate must open their own PR. Multiple PRs are not allowed (only one per candidate).
 - Do not merge your PR. It will be used only for review and evaluation.
 - Ensure all your deliverables are complete before opening the PR.
+- If you face any issues with committing or submitting the PR, share the link to your forked repository directly with any person listed in the email invite for this test.
+- If nothing works, compress your deliverables/ folder and send it to us via email or Google Drive.
 
 ## ⏰ Submission Timeline
 
-You will be given **X hours/days** (timeframe to be finalized by the recruitment team) to complete and submit the assignment.
+You will be given **3** **hours** to complete and submit the assignment. You are allotted three (3) hours to complete and submit the assignment. Submit all completed work within this time frame. Partial submissions are acceptable.
 
 ## 📌 Problem Overview
 
