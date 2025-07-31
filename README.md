@@ -47,8 +47,11 @@ You are expected to:
 - **Preferred Approach**: Use **PySpark** to demonstrate a distributed pipeline.
   - You may share core logic and explanations via markdown cells.
   - A complete implementation is not expected; focus on clarity and approach.
-- **Alternate Approach** (if unfamiliar with PySpark): Use **Pandas** and **Polars** with batching/loop-based ingestion.
-  - Simulate scalability concerns and propose improvements.
+- **Alternate Approach** (if unfamiliar with PySpark):
+  - Use **Pandas** and **Polars** with batching/loop-based ingestion.
+    - Simulate scalability concerns and propose improvements.
+  - Or you may also use [Databricks](https://www.databricks.com/):
+    - Implement the ETL logic using Databricks Notebooks (with PySpark or Pandas).
 
 ### 3. **Data Warehousing**
 
