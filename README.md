@@ -1,8 +1,5 @@
-# Associate Consultant – SDE Role Assignment
+THis test fork and test merge
 
-Welcome to the assignment for candidates applying to the **Associate Consultant** position at **Viscadia**. This is a take-home evaluation designed to assess your technical depth, analytical thinking, and approach to solving real-world ETL and cloud infrastructure problems.
-
-## 📦 Folder Structure
 
 - `data.md` : Instructions to download data from AWS S3
 - `deliverables/`: Submit your assignment files here
