@@ -11,7 +11,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 ## 🔧 Getting Started
 
 1. Fork this repository.
-2. Download the input files from [this AWS S3 link](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/data.zip), which contains::
+2. Download the input files from this [AWS S3](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/data.zip) link, which contains::
    - `products.csv`
    - `customers.json`
    - `sales/` folder containing 150 daily `.xlsx` files
@@ -30,7 +30,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 
 ## ⏰ Submission Timeline
 
-You will be given **3** **hours** to complete and submit the assignment. You are allotted three (3) hours to complete and submit the assignment. Submit all completed work within this time frame. Partial submissions are acceptable.
+You will be given **3** **hours** to complete and submit the assignment. Submit all completed work within this time frame. Partial submissions are acceptable.
 
 ## 📌 Problem Overview
 
