@@ -10,7 +10,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 
 ## 🔧 Getting Started
 
-1. Fork this repository and rename it as `submission-yourname`.
+1. Fork this repository.
 2. Download the input files from [this AWS S3 link](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/data.zip), which contains::
    - `products.csv`
    - `customers.json`
@@ -18,7 +18,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
    - `inventory.csv`
 3. Begin your work and place all deliverables in the `deliverables/` folder.
 4. Commit all your work directly to your fork.
-5. Open a Pull Request (PR) to the same branch of this repository as your submission.
+5. Open a Pull Request (PR) named `submission-yourname` to the same branch of this repository as your submission .
 
 ### Important Notes
 
