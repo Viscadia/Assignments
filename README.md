@@ -81,18 +81,16 @@ You may complete the assignment using  **one of the following two approaches** ,
 - Use **PySpark** to implement a distributed ETL pipeline locally.
   - Share core logic via `.py` scripts or Jupyter notebooks.
   - Use markdown to explain your design and assumptions.
-  
 - Alternatively, use **Pandas** or **Polars** with batching/loop-based ingestion.
   - Simulate scalability concerns and propose improvements.
 
-> Submit your work by committing it to your  **forked GitHub repository** , inside the `deliverables/` folder.
+> Submit your work by committing it to your **forked GitHub repository**, inside the `deliverables/` folder.
 
 ### **Approach 2: Databricks Development (Notebook Submission)**
 
 - Use **Databricks Notebooks** to implement your ETL pipeline.
-  - You may use  **PySpark** ,  **Pandas** , or  **Polars** .
+  - You may use  **PySpark**, **Pandas**, or **Polars**.
   - Use markdown cells to explain logic, architecture, and tradeoffs.
-- No need to fork or submit via GitHub in this case.
 
 > Export your Databricks notebook (`.dbc`, `.ipynb`, or `.html`) and **share it directly** via email or a cloud drive link.
 
