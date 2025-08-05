@@ -11,7 +11,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 ## 🔧 Getting Started
 
 1. Fork this repository.
-2. Download the input files from this [AWS S3](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/data.zip) link, which contains::
+2. Download the input files from this [AWS S3](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/ac_data.zip) link, which contains::
    - `products.csv`
    - `customers.json`
    - `sales/` folder containing 150 daily `.xlsx` files
