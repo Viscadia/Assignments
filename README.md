@@ -80,8 +80,7 @@ Each sale is linked to a product and a customer. Each product belongs to a categ
 
 ### Your Task
 
-1. Write a SQL Query that returns the top 3 selling products per region over the past 2 months.
-2. Create a refreshable visual summary for the same.
+Create a refreshable visual summary that returns the top 3 most profitable products per region over the past 2 months with thier stock status trend.
 
 ### Constraints and Requirements
 
