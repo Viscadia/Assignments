@@ -44,7 +44,7 @@ You are expected to:
 
 - `sales/` contains 14 separate `.csv` files, each representing sales for a single day.
 - Design an ETL pipeline capable of ingesting, transforming, and loading this data at scale.
-- Use OOP and relevant design patterns to build a modular and scalable pipeline.
+- Use OOPs and relevant design patterns to build a modular and scalable pipeline.
 
 ### 3. **Data Warehousing**
 
@@ -108,7 +108,7 @@ You will be assessed on:
 
 - **Data Cleaning** – Handling inconsistencies, nulls, and malformed records.
 - **ETL Design** – Scalability, modularity, and realism of your pipeline.
-- **Python Proficiency** – OOP, functional design, use of decorators or patterns.
+- **Python Proficiency** – OOPs, functional design, use of decorators or patterns.
 - **SQL Skills** – Schema design, joins, and query logic.
 - **Cloud Understanding** – Knowing AWS components and their interactions.
 - **Communication** – Clarity of markdown explanations and assumptions.
