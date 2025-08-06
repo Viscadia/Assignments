@@ -13,7 +13,7 @@ Welcome to the assignment for candidates applying to the **Associate Consultant*
 2. Download the input files from this [AWS S3](https://assessment-case-study-data.s3.us-east-1.amazonaws.com/Assignment_AC/ac_data.zip) link, which contains:
    - `products.xlsx` product metadata including category and price
    - `customers.json` customer demographics, including region and segment
-   - `sales/salesXXX.csv` folder containing 14 files containing records of daily drug sales
+   - `sales/salesXXX.csv` folder containing 150 files containing records of daily drug sales
    - `inventory.xlsx` daily inventory levels for each product
 3. Begin your work and place all deliverables in the `deliverables/` folder.
 4. Commit all your work directly to your fork.
@@ -42,9 +42,9 @@ You are expected to:
 
 ### 2. **ETL Pipeline Design**
 
-- `sales/` contains 14 separate `.csv` files, each representing sales for a single day.
+- `sales/` contains 150 separate `.csv` files, each representing sales for a single day.
 - Design an ETL pipeline capable of ingesting, transforming, and loading this data at scale.
-- Use OOP and relevant design patterns to build a modular and scalable pipeline.
+- Use OOPs and relevant design patterns to build a modular and scalable pipeline.
 
 ### 3. **Data Warehousing**
 
@@ -109,7 +109,7 @@ You will be assessed on:
 
 - **Data Cleaning** – Handling inconsistencies, nulls, and malformed records.
 - **ETL Design** – Scalability, modularity, and realism of your pipeline.
-- **Python Proficiency** – OOP, functional design, use of decorators or patterns.
+- **Python Proficiency** – OOPs, functional design, use of decorators or patterns.
 - **SQL Skills** – Schema design, joins, and query logic.
 - **Cloud Understanding** – Knowing AWS components and their interactions.
 - **Communication** – Clarity of markdown explanations and assumptions.
