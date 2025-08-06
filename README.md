@@ -78,7 +78,7 @@ You may complete the assignment using  **one of the following two approaches** ,
 
 ### **Approach 1: Local Development (GitHub Submission)**
 
-- Use **Pandas**, **Polars** or **PySpark**(brownie point) to implement the ETL pipeline locally.
+- Use **Pandas**, **Polars** or **PySpark** (Brownie Points) to implement the ETL pipeline locally.
   - Share core logic via `.py` scripts or Jupyter notebooks.
   - Use markdown to explain your design and assumptions.
   - Simulate scalability concerns and propose improvements.
