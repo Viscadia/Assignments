@@ -1,0 +1,51 @@
+customer_id,customer_name,type,city,region,sales_rep
+C1000,Vincent Downs,Hospital,Bangalore,Central,Rep_2
+C1001,Amy Scott,Hospital,Zurich,West,Rep_9
+C1002,Diana Moore,Hospital,Houston,Northeast,Rep_3
+C1003,Claudia Rodriguez,Retail,Delhi,East,Rep_7
+C1004,Sara Davidson,Retail,Bangalore,South,Rep_4
+C1005,Dr. Kyle Hicks,Retail,Phoenix,West,Rep_6
+C1006,David Miller,Retail,Delhi,Southwest,Rep_10
+C1007,Claudia Rodriguez,Hospital,Basel,West,Rep_2
+C1008,Matthew Robinson,Retail,Delhi,Central,Rep_6
+C1009,Mrs. Katherine Lloyd,Wholesale,New York,South,Rep_8
+C1010,Christopher Stewart,Online,Phoenix,West,Rep_6
+C1011,Tom Hester,Retail,Los Angeles,West,Rep_3
+C1012,Matthew Wang,Wholesale,Pune,Central,Rep_8
+C1013,Scott Green,Retail,Los Angeles,East,Rep_3
+C1014,Joanna Camacho,Wholesale,Phoenix,East,Rep_1
+C1015,Thomas Ortiz,Wholesale,Basel,South,Rep_5
+C1016,Brian Mcdaniel,Online,Pune,South,Rep_10
+C1017,Claudia Rodriguez,Online,New York,West,Rep_8
+C1018,Joseph Zimmerman,Wholesale,Los Angeles,North,Rep_8
+C1019,Rachel Simpson,Retail,New York,Southwest,Rep_6
+C1020,Tonya Gross,Online,Houston,Southwest,Rep_10
+C1021,Jeffrey Sanchez II,Hospital,Delhi,South,Rep_3
+C1022,Joshua Carlson,Retail,Pune,West,Rep_3
+C1023,Karen Smith,Online,Delhi,Cental,Rep_5
+C1024,Andrew Duran,Retail,Phoenix,Southwest,Rep_4
+C1025,Michael Rodriguez,Online,Zurich,Southwest,Rep_9
+C1026,Maria Norman,Wholesale,Phoenix,East,Rep_6
+C1027,Roger Macdonald,Hospital,Phoenix,East,Rep_6
+C1028,Brian Flores,Online,Chicago,South,Rep_1
+C1029,Tyrone Baker,Hospital,Houston,Southwest,Rep_7
+C1030,Nicholas Baker,Online,Los Angeles,North,Rep_9
+C1031,Terrance Hoffman,Wholesale,New York,Southwest,Rep_6
+C1032,Jessica Gardner,Retail,Basel,East,Rep_5
+C1033,Cynthia Logan,Wholesale,Zurich,East,Rep_4
+C1034,Daniel Bradley,Hospital,Houston,Central,Rep_10
+C1035,Joyce James,Retail,Pune,Central,Rep_5
+C1036,Ashley Perez,Online,Delhi,Northeast,Rep_2
+C1037,Amy Scott,Wholesale,Houston,South,Rep_3
+C1038,Jeffrey Sanchez II,Retail,Pune,Northeast,Rep_1
+C1039,Leonard Fields Jr.,Retail,Phoenix,West,Rep_3
+C1040,Natalie Perkins,Online,Phoenix,Northeast,Rep_7
+C1041,Leslie White,Hospital,Basel,West,Rep_3
+C1042,Susan Richardson,Retail,Chicago,Northeast,Rep_4
+C1043,Mary Contreras,Wholesale,Los Angeles,North,Rep_9
+C1044,Megan Sherman,Online,Los Angeles,West,Rep_1
+C1045,Sarah Smith,Hospital,Bangalore,North,Rep_3
+C1046,Kevin Miller,Online,New York,East,Rep_10
+C1047,Natalie Perkins,Online,New York,Southwest,Rep_1
+C1048,Arthur Barker,Wholesale,Chicago,West,Rep_6
+C1049,Natalie Martinez,Wholesale,New York,Central,Rep_2

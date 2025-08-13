@@ -1,0 +1,68 @@
+SELECT
+    c.region,
+    s.product_id,
+    p.product_name,
+    SUM(s.quantity) AS total_quantity_sold,
+    RANK() OVER (PARTITION BY c.region ORDER BY SUM(s.quantity) DESC) AS sales_rank
+FROM
+    sales s
+    JOIN customers c ON s.customer_id = c.customer_id
+    JOIN products p ON s.product_id = p.product_id
+WHERE
+    s.sale_date >= DATE_SUB(
+        (SELECT MAX(sale_date) FROM sales),  -- max date in sales table
+        INTERVAL 2 MONTH ) 
+GROUP BY
+    c.region, s.product_id, p.product_name
+HAVING
+    sales_rank <= 3
+ORDER BY
+    c.region, sales_rank;
+
+
+without rank()
+
+
+SELECT
+    t.region,
+    t.product_id,
+    t.product_name,
+    t.total_quantity_sold
+FROM (
+    SELECT
+        c.region,
+        s.product_id,
+        p.product_name,
+        SUM(s.quantity) AS total_quantity_sold
+    FROM
+        sales s
+        JOIN customers c ON s.customer_id = c.customer_id
+        JOIN products p ON s.product_id = p.product_id
+    WHERE
+        s.sale_date >= DATE_SUB(
+            (SELECT MAX(sale_date) FROM sales),
+            INTERVAL 2 MONTH)
+    GROUP BY
+        c.region, s.product_id, p.product_name
+) t
+WHERE (
+    SELECT COUNT(*)
+    FROM (
+        SELECT
+            c2.region,
+            s2.product_id,
+            SUM(s2.quantity) AS total_quantity_sold
+        FROM
+            sales s2
+            JOIN customers c2 ON s2.customer_id = c2.customer_id
+        WHERE
+            c2.region = t.region
+            AND s2.sale_date >=  DATE_SUB(
+            (SELECT MAX(sale_date) FROM sales),
+            INTERVAL 2 MONTH)
+        GROUP BY
+            c2.region, s2.product_id
+        HAVING SUM(s2.quantity) > t.total_quantity_sold
+    ) x
+) < 3
+ORDER BY t.region, t.total_quantity_sold DESC;    

@@ -1,0 +1,10 @@
+product_id,product_name,category,price
+PID1000,Drug_0,Antiviral,96.96
+PID1001,Drug_1,Analgesic,15.41
+PID1002,Drug_2,Antifungal,57.58
+PID1003,Drug_3,Analgesic,54.04
+PID1004,Drug_4,Analgisec,36.1
+PID1005,Drug_5,Analgesic,66.87
+PID1006,Drug_6,Antiviral,88.34
+PID1008,Drug_8,Vaccine,32.13
+PID1009,Drug_9,Antifungal,91.62
