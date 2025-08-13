@@ -137,6 +137,7 @@ def save_cleaned(products, customers, inventory, sales):
     products.to_csv(os.path.join(output_dir, 'products_cleaned.csv'), index=False)
     customers.to_csv(os.path.join(output_dir, 'customers_cleaned.csv'), index=False)
     inventory.to_csv(os.path.join(output_dir, 'inventory_cleaned.csv'), index=False)
+    # showed some results in bonus.txt as final size was large (about 1.4 GB)  
 
 if __name__ == "__main__":
     products, customers, inventory, sales = load_data()

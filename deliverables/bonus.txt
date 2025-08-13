@@ -66,3 +66,19 @@ WHERE (
     ) x
 ) < 3
 ORDER BY t.region, t.total_quantity_sold DESC;    
+
+
+
+final Sales data showing like --
+sale_id,sale_date,product_id,customer_id,quantity,product_price,total_sale_amount,product_name,category,price,customer_name,type,city,region,sales_rep,warehouse_id,stock_level,reorder_level,avg_daily_sales,days_until_reorder
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W000_000,29,46,17,1.7
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W001_000,22,39,17,1.3
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W002_000,61,21,32,1.9
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W003_000,149,30,92,1.6
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W004_000,147,25,100,1.5
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W005_000,90,72,56,1.6
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W006_000,84,50,46,1.8
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W008_000,97,50,52,1.9
+S00000001,2023-01-01,PID1000,C1022,11,54.08,594.88,Drug_0,Antiviral,96.96,Joshua Carlson,Retail,Pune,West,Rep_3,W011_000,24,56,15,1.6
+S00000002,2023-01-01,PID1006,C1017,4,27.36,109.44,Drug_6,Antiviral,88.34,Claudia Rodriguez,Online,New York,West,Rep_8,W000_006,51,87,32,1.6
+S00000002,2023-01-01,PID1006,C1017,4,27.36,109.44,Drug_6,Antiviral,88.34,Claudia Rodriguez,Online,New York,West,Rep_8,W001_006,18,39,10,1.8
